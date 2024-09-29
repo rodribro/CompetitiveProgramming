@@ -21,16 +21,7 @@ int main()
 
         if (prev_char != cur_char)
         {
-            if (max_counter >= counter)
-            {
-                counter = 1;
-            }
-
-            else if (max_counter <= counter)
-            {
-                max_counter = counter;
-                counter = 1;
-            }
+            max_counter = max(max_counter, counter);
         }
 
         else if (prev_char == cur_char)
