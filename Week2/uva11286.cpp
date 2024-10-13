@@ -42,7 +42,7 @@ int main()
             }
             // cout << endl;
 
-            sort(classes.begin(), classes.end()); // É PRECISO DAR SORT PARA O MAP COMPARAR OS VALORES??
+            sort(classes.begin(), classes.end());
 
             // Increases the counter for each set of classes
             freqs[classes]++;
